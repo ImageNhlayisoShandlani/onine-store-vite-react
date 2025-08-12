@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #343a40; 
+    padding: 1rem; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    margin-bottom: 5rem;
+}
+
+
+.navbar-brand{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}

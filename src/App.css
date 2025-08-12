@@ -1,0 +1,75 @@
+:root{
+    --color--main: rgb(87 14 108);
+    --color--secondary: #fdb912;
+}
+
+
+/**
+Global Styles
+*/
+
+.nav-link.active {
+  color: var(--color--main);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.badge{
+    background: red !important;
+}
+
+.content--body{
+}
+
+.site--title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site--title h1{
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  font-size: 22px;
+  margin-top: 2rem;
+}
+
+.main--container{
+  margin-top: 6.5rem;
+}
+
+
+.product--information{
+  padding: 0.5rem;
+}
+
+.product--information p,
+.category--text{
+  color: var(--color--secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.btn-secondary{
+  background: var(--color--main);
+  margin-bottom: 0.5rem;
+}
+
+
+@media(min-width: 600px) and (max-width: 1000px){
+  .product--card{
+    width: 45% !important;
+  }
+}
+
+@media (max-width: 599px){
+  .hero--home{
+    height: 150vh !important;
+    grid-template-columns: 100% !important;
+    grid-template-rows: 50% !important;
+  }
+  .product--card{
+    width: 85% !important;
+  }
+}
+
